@@ -1,0 +1,36 @@
+/* Postshelf form */
+.post-list-wrapper {
+    margin: 64px auto 0;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .post-list-form {
+    width: 30%;
+    background: #fff;
+    padding: 20px;
+    margin-right: 10px;
+  }
+  .form-group {
+    width: 100%;
+  }
+  .form-label {
+    display: block;
+    margin-bottom: 6px;
+    font-size: 12px;
+  }
+  .btn:focus {
+    outline: none;
+  }
+  .btn.btn-add {
+    background: rgb(239, 239, 239);
+    margin: 30px auto 0;
+    color: #585858;
+    display: flex;
+  }
+  .btn-add:hover {
+    background-color: rgb(222 219 219);
+  }
+  .btn-add:focus {
+    outline: none;
+  }
